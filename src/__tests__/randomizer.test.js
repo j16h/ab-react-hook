@@ -106,9 +106,9 @@ describe("Randomization algorithm for weighted variants:", () => {
     it("80/10/10 split", () => {
       const { isErrorRateLte1Precent } = calcABCVariantWeights(
         {
-          weightA: 40,
-          weightB: 40,
-          weightC: 20
+          weightA: 80,
+          weightB: 10,
+          weightC: 10
         },
         n
       );
